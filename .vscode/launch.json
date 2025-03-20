@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "button_quiz",
+            "cwd": "Study/Flutter_project/2025-03-19/button_quiz",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "button_quiz (profile mode)",
+            "cwd": "Study/Flutter_project/2025-03-19/button_quiz",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "button_quiz (release mode)",
+            "cwd": "Study/Flutter_project/2025-03-19/button_quiz",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
