@@ -7,9 +7,9 @@
 //문제의 원리 : 계속 나누고 나머지끼리 더해준다 몫이 0 일때 까지
 main() {
   int inputValue = 12345678;
+  int index = inputValue;
   int remainder = 0; //나머지를 더할 변수
   int sum = 0;
-  int inputValue1 = 0;
 
   while (inputValue != 0) {
     remainder = inputValue % 10;
@@ -17,5 +17,5 @@ main() {
     inputValue = inputValue ~/ 10;
   }
 
-  print("Sum of $inputValue = $sum");
+  print("Sum of $index = $sum");
 }
